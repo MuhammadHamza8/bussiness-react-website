@@ -19,9 +19,11 @@ export default function Blog () {
                 <div className='flex gap-x-1 mx-[18px] mt-[53px]'>
                     <img src="assets/images/11.png" alt="img" />
                     <p>Alex Liones</p>
+
+                 
                    </div>
 
-                   <button className=" w-[157px] h-[43.91px] bg-[#000000] rounded-md mt-[30px] text-white mx-[90px] ">
+                   <button className=" w-[157px] h-[43.91px] bg-[#000000] rounded-md mt-[30px] text-white mx-[90px] hover:bg-orange-400 ">
                 Read More
           </button>
 
@@ -43,7 +45,7 @@ export default function Blog () {
                     <p>Alex Liones</p>
                    </div>
 
-                   <button className=" w-[157px] h-[43.91px] bg-[#000000] rounded-md mt-[30px] text-white mx-[90px] ">
+                   <button className=" w-[157px] h-[43.91px] bg-[#000000] rounded-md mt-[30px] text-white mx-[90px]  hover:bg-orange-400 ">
                 Read More
           </button>
 
@@ -66,7 +68,7 @@ export default function Blog () {
                     <p>Alex Liones</p>
                    </div>
 
-                   <button className=" w-[157px] h-[43.91px] bg-[#000000] rounded-md mt-[30px] text-white mx-[90px] ">
+                   <button className=" w-[157px] h-[43.91px] bg-[#000000] rounded-md mt-[30px] text-white mx-[90px]  hover:bg-orange-400  ">
                 Read More
           </button>
 

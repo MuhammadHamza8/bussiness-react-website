@@ -8,6 +8,7 @@ import Solution from '../components/Home-components/Solution';
 import Reason from '../components/Home-components/Reason';
 import Research from '../components/Home-components/Research';
 import Blog from '../components/Home-components/Blog';
+import Feedback from '../components/Home-components/Feedback';
 
 const Home = () => {
   return (
@@ -20,6 +21,7 @@ const Home = () => {
       <Reason/>
       <Research/>
       <Blog/>
+      <Feedback/>
 
 
 
