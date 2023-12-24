@@ -9,6 +9,7 @@ import Reason from '../components/Home-components/Reason';
 import Research from '../components/Home-components/Research';
 import Blog from '../components/Home-components/Blog';
 import Feedback from '../components/Home-components/Feedback';
+import Contact from '../components/Home-components/Contact';
 
 const Home = () => {
   return (
@@ -22,6 +23,7 @@ const Home = () => {
       <Research/>
       <Blog/>
       <Feedback/>
+      <Contact/>
 
 
 
