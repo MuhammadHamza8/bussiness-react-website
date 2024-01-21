@@ -2,12 +2,18 @@
 
 import React from 'react';
 import Layout from '../components/Layout';
-
-const About = () => {
+import TopSection from '../components/About-components/topSection';
+import MiddleSection from '../components/About-components/middleSection';
+import ThirdSection from '../components/About-components/thirdSection';
+ const About = () => {
   return (
     <Layout>
-      <h1>About Us</h1>
-      {/* Other content specific to the About page */}
+      <TopSection/>
+      <MiddleSection/>
+      <ThirdSection/>
+      
+      
+     
     </Layout>
   );
 };
