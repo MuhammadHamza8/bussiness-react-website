@@ -7,23 +7,25 @@ import Cases from  './pages/Cases';
 import About from "./pages/About";
 import CasesDetails from "./pages/CasesDetails"
 import SolutionDesign from "./pages/SolutionDesign"
+import JourneyPage from "./pages/JourneyPage";
 
 
 
 const App = () => {
   return (
     <Router>
-    
+
       <Routes>
           <Route path="/" exact element={<Home />} />
           <Route path="/cases" element={< Cases/>} />
           <Route path="/about" element={< About/>} />
           <Route path="/casesdetails" element={< CasesDetails/>} />
           <Route path="/solutiondesign" element={< SolutionDesign/>} />
+          <Route path="/journeypage" element={< JourneyPage/>} />
          
         
           </Routes>
-  
+         
     </Router>
   );
 };

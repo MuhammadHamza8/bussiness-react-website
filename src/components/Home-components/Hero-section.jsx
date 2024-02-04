@@ -6,7 +6,7 @@ export default function Hero() {
     <div className="container mx-auto flex justify-between">
 
     <div className='ml-16 mt-32'>
-      <h1 className='text-[48px] text-black  font-black'>Get Bussiness<br/> Solutions with TheFirm.</h1>
+      <h1 className='text-[48px] text-black  font-black'>Get Bussiness Solutions with TheFirm.</h1>
       <p className='py-8'>
         Lorem Ipsum is simply dummy text of the printing<br/>
         and typesetting industry. Lorem Ipsum has been<br/>
