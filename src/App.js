@@ -8,6 +8,7 @@ import About from "./pages/About";
 import CasesDetails from "./pages/CasesDetails"
 import SolutionDesign from "./pages/SolutionDesign"
 import JourneyPage from "./pages/JourneyPage";
+import Contact from "./pages/Contact";
 
 
 
@@ -22,9 +23,8 @@ const App = () => {
           <Route path="/casesdetails" element={< CasesDetails/>} />
           <Route path="/solutiondesign" element={< SolutionDesign/>} />
           <Route path="/journeypage" element={< JourneyPage/>} />
-         
-        
-          </Routes>
+          <Route path="/contact" element={< Contact/>} />
+         </Routes>
          
     </Router>
   );

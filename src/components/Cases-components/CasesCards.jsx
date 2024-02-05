@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 export default function CasesCards() {
   return (
@@ -10,7 +11,7 @@ export default function CasesCards() {
         <h2 className='ml-[21px]'>Lorem Ipsum is</h2>
         <p className='ml-[21px]'>Lorem Ipsum is simply  text of the<br /> printing and type setting industry.<br /> make a type specimen. </p>
 
-        <button className=' mx-[91px] mt-[47px]   w-[157px] h-[43.19px] rounded-[5px]  text-center text-white bg-[#1E1E1E] hover:bg-[#FACA10]'> Read More</button>
+        <button className=' mx-[91px] mt-[47px]   w-[157px] h-[43.19px] rounded-[5px]  text-center text-white bg-[#1E1E1E] hover:bg-[#FACA10]'><Link className='no-underline text-white' to ="/casesdetails">Read More</Link> </button>
 
       </div>
 
@@ -19,7 +20,7 @@ export default function CasesCards() {
         <h2 className='ml-[21px]'>Lorem Ipsum is</h2>
         <p className='ml-[21px]'>Lorem Ipsum is simply  text of the<br /> printing and type setting industry.<br /> make a type specimen. </p>
 
-        <button className='  hover:bg-[#FACA10]  mx-[91px] mt-[47px]   w-[157px] h-[43.19px] rounded-[5px]  text-center text-white bg-[#1E1E1E]'> Read More</button>
+        <button className='  hover:bg-[#FACA10]  mx-[91px] mt-[47px]   w-[157px] h-[43.19px] rounded-[5px]  text-center text-white bg-[#1E1E1E]'> <Link className='no-underline text-white' to = "/casesdetails">Read More</Link> </button>
 
       </div>
 
@@ -28,7 +29,7 @@ export default function CasesCards() {
         <h2 className='ml-[21px]'>Lorem Ipsum is</h2>
         <p className='ml-[21px]'>Lorem Ipsum is simply  text of the<br /> printing and type setting industry.<br /> make a type specimen. </p>
 
-        <button className='  hover:bg-[#FACA10]  mx-[91px] mt-[47px]   w-[157px] h-[43.19px] rounded-[5px]  text-center text-white bg-[#1E1E1E]'> Read More</button>
+        <button className='  hover:bg-[#FACA10]  mx-[91px] mt-[47px]   w-[157px] h-[43.19px] rounded-[5px]  text-center text-white bg-[#1E1E1E]'>  <Link className='no-underline text-white' to = "/casesdetails">Read More</Link></button>
 
       </div>
 
@@ -45,7 +46,7 @@ export default function CasesCards() {
         <h2 className='ml-[21px]'>Lorem Ipsum is</h2>
         <p className='ml-[21px]'>Lorem Ipsum is simply  text of the<br /> printing and type setting industry.<br /> make a type specimen. </p>
 
-        <button className=' mx-[91px] mt-[47px]   w-[157px] h-[43.19px] rounded-[5px]  text-center text-white bg-[#1E1E1E] hover:bg-[#FACA10]'> Read More</button>
+        <button className=' mx-[91px] mt-[47px]   w-[157px] h-[43.19px] rounded-[5px]  text-center text-white bg-[#1E1E1E] hover:bg-[#FACA10]'> <Link className='no-underline text-white' to = "/casesdetails">Read More</Link></button>
 
       </div>
 
@@ -54,7 +55,7 @@ export default function CasesCards() {
         <h2 className='ml-[21px]'>Lorem Ipsum is</h2>
         <p className='ml-[21px]'>Lorem Ipsum is simply  text of the<br /> printing and type setting industry.<br /> make a type specimen. </p>
 
-        <button className='  hover:bg-[#FACA10]  mx-[91px] mt-[47px]   w-[157px] h-[43.19px] rounded-[5px]  text-center text-white bg-[#1E1E1E]'> Read More</button>
+        <button className='  hover:bg-[#FACA10]  mx-[91px] mt-[47px]   w-[157px] h-[43.19px] rounded-[5px]  text-center text-white bg-[#1E1E1E]'>  <Link className='no-underline text-white' to = "/casesdetails">Read More</Link></button>
 
       </div>
 
@@ -63,7 +64,7 @@ export default function CasesCards() {
         <h2 className='ml-[21px]'>Lorem Ipsum is</h2>
         <p className='ml-[21px]'>Lorem Ipsum is simply  text of the<br /> printing and type setting industry.<br /> make a type specimen. </p>
 
-        <button className='  hover:bg-[#FACA10]  mx-[91px] mt-[47px]   w-[157px] h-[43.19px] rounded-[5px]  text-center text-white bg-[#1E1E1E]'> Read More</button>
+        <button className='  hover:bg-[#FACA10]  mx-[91px] mt-[47px]   w-[157px] h-[43.19px] rounded-[5px]  text-center text-white bg-[#1E1E1E]'>  <Link className='no-underline text-white' to = "/casesdetails">Read More</Link>e</button>
 
       </div>
 
@@ -81,7 +82,7 @@ export default function CasesCards() {
         <h2 className='ml-[21px]'>Lorem Ipsum is</h2>
         <p className='ml-[21px]'>Lorem Ipsum is simply  text of the<br /> printing and type setting industry.<br /> make a type specimen. </p>
 
-        <button className=' mx-[91px] mt-[47px]   w-[157px] h-[43.19px] rounded-[5px]  text-center text-white bg-[#1E1E1E] hover:bg-[#FACA10]'> Read More</button>
+        <button className=' mx-[91px] mt-[47px]   w-[157px] h-[43.19px] rounded-[5px]  text-center text-white bg-[#1E1E1E] hover:bg-[#FACA10]'>  <Link className='no-underline text-white' to = "/casesdetails">Read More</Link></button>
 
       </div>
 
@@ -90,7 +91,7 @@ export default function CasesCards() {
         <h2 className='ml-[21px]'>Lorem Ipsum is</h2>
         <p className='ml-[21px]'>Lorem Ipsum is simply  text of the<br /> printing and type setting industry.<br /> make a type specimen. </p>
 
-        <button className='  hover:bg-[#FACA10]  mx-[91px] mt-[47px]   w-[157px] h-[43.19px] rounded-[5px]  text-center text-white bg-[#1E1E1E]'> Read More</button>
+        <button className='  hover:bg-[#FACA10]  mx-[91px] mt-[47px]   w-[157px] h-[43.19px] rounded-[5px]  text-center text-white bg-[#1E1E1E]'> <Link className='no-underline text-white' to = "/casesdetails">Read More</Link></button>
 
       </div>
 
@@ -99,7 +100,7 @@ export default function CasesCards() {
         <h2 className='ml-[21px]'>Lorem Ipsum is</h2>
         <p className='ml-[21px]'>Lorem Ipsum is simply  text of the<br /> printing and type setting industry.<br /> make a type specimen. </p>
 
-        <button className='  hover:bg-[#FACA10]  mx-[91px] mt-[47px]   w-[157px] h-[43.19px] rounded-[5px]  text-center text-white bg-[#1E1E1E]'> Read More</button>
+        <button className='  hover:bg-[#FACA10]  mx-[91px] mt-[47px]   w-[157px] h-[43.19px] rounded-[5px]  text-center text-white bg-[#1E1E1E]'>  <Link  className='no-underline text-white' to = "/casesdetails">Read More</Link></button>
 
       </div>
 

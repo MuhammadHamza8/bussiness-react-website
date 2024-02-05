@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 export default function Footer() {
   return (
@@ -6,12 +7,12 @@ export default function Footer() {
   <img src="assets/images/logo.png"  className="mx-auto" alt="img" />
 
     <ul className='flex gap-x-[58px] mt-[50px] ml-[200px]'>
-      <li className='text-[18px] font-bold'>Home</li>
-      <li className='text-[18px] font-bold'>Solutions</li>
-      <li className='text-[18px] font-bold'>Cases</li>
-      <li className='text-[18px] font-bold'>About Us</li>
-      <li className='text-[18px] font-bold'>Blog</li>
-      <li className='text-[18px] font-bold'>Contact Us</li>
+    <li className='text-base text-black font-bold '><Link className='no-underline text-black' to="/"> Home</Link> </li>
+        <li  className='text-base text-black font-bold '> <Link className='no-underline text-black' to= "/cases"> Cases </Link> </li>
+        <li  className='text-base text-black font-bold '> <Link className='no-underline text-black' to = "/about">About us</Link>  </li> 
+        <li  className='text-base text-black font-bold '> <Link className='no-underline text-black' to ="/solutiondesign">Solution</Link> </li>
+        <li  className='text-base text-black font-bold '> <Link className='no-underline text-black' to= "/journeypage">Journey</Link>  </li>
+        <li  className='text-base text-black font-bold '> <Link className='no-underline text-black' to ="/contact">Contact</Link></li> 
 
     </ul>
 

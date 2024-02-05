@@ -18,12 +18,12 @@ export default function Branding() {
             Lorem Ipsum is simply
           </h1>
           <p className="text-[#1E1E1E]  text-lg text-justify mt-[13px]">
-            Lorem Ipsum is simply dummy text of the printing and <br />
-            typesetting industry.  orem Ipsum has been the industry <br />Lstandard
-            dummy text ever since the 1500s, when an unknown<br />L
-            printer took a galley of type Lorem IpsumL is simply dummy<br />
-            text of the printing and typesetting industry. <br />Lorem Ipsum has been
-            the industry's   <br />  standard dummy text ever since the 1500s,   <br /> 
+            Lorem Ipsum is simply dummy text of the printing and 
+            typesetting industry.  orem Ipsum has been the industry Lstandard
+            dummy text ever since the 1500s, when an unknown 
+            printer took a galley of type Lorem IpsumL is simply dummy
+            text of the printing and typesetting industry.Lorem Ipsum has been
+            the industry's     standard dummy text ever since the 1500s,   
          when an unknown printer took.
           </p>
 

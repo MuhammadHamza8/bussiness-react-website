@@ -13,10 +13,10 @@ export default function Slider() {
   text ever since the 1500s,
   </p>
   <ul className='py-2'>
-    <li className='flex gap-2 py-3'> <img src='assets/images/question.png' alt='img' /> <p>Loren rasion gravida auem is bibenua tase</p></li>
-    <li className='flex gap-2 py-3'> <img src='assets/images/question.png' alt='img'/> <p>Loren rasion gravida auem is bibenua tase</p></li>
-    <li className='flex gap-2 py-3'> <img src='assets/images/question.png' alt='img'/> <p>Loren rasion gravida auem is bibenua tase</p></li>
-    <li className='flex '> <img src='assets/images/question.png' alt='img'/> <p>Loren rasion gravida auem is bibenua tase</p></li>
+    <li className='flex gap-2 py-3'> <img src='assets/images/question.png' className='w-[14px;] h-[20px]' alt='img' /> <p>Loren rasion gravida auem is bibenua tase</p></li>
+    <li className='flex gap-2 py-3'> <img src='assets/images/question.png' className='w-[14px;] h-[20px]' alt='img'/> <p>Loren rasion gravida auem is bibenua tase</p></li>
+    <li className='flex gap-2 py-3'> <img src='assets/images/question.png'  className='w-[14px;] h-[20px]' alt='img'/> <p>Loren rasion gravida auem is bibenua tase</p></li>
+    <li className='flex gap-2 py-3 '> <img src='assets/images/question.png'  className='w-[14px;] h-[20px]'  alt='img'/> <p>Loren rasion gravida auem is bibenua tase</p></li>
    
   
   </ul>
