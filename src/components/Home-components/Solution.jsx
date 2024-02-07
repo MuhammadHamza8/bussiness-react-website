@@ -7,13 +7,13 @@ export default function Solution() {
 
         {/* Bussiness Solution */}
 <div>
-<img className='w-full ' src='assets/images/7.png' alt='img' />
+<img className='w-full lg:w-full md:w-full sm:w-full ' src='assets/images/7.png' alt='img' />
 </div>
 
 
 <div className='mt-24'>
-<h1 className='text-[44px] font-black    lg:text-[32px]     md:text-[24px]   sm:text-[14px] '>Perfect Solution for Your Bussiness</h1>
-<p className='text-lg font-normal    lg:[24px]  md:[16px] sm:text-[12px] '>Lorem Ipsum is simply dummy text of the printing<br/> and typesetting industry.
+<h1 className='text-[44px] font-black '>Perfect Solution for Your Bussiness</h1>
+<p className='text-lg font-normal '>Lorem Ipsum is simply dummy text of the printing<br/> and typesetting industry.
      Lorem Ipsum has been the<br/> industry's standard dummy text ever since the 1500s,<br/> when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
     It has survived not only five centuries,</p>
 
