@@ -5,29 +5,44 @@ import { Link } from 'react-router-dom';
 
 export default function Header() {
   return (
-<div className='container mx-auto grid grid-cols-3 mt-3 gap-x-10 '>
+<div className='container mx-auto grid sm:py-2    lg:grid-cols-3 lg:mt-3 lg:gap-x-10 '>
 
 <div>  
-  <img   src='assets/images/logo.png' height="67" width="250" alt='img' />
+  <img className='sm:py-2    lg:h-16 lg:w-60'   src='assets/images/logo.png' alt='img' />
    </div>
   
 
-     <nav className='mr-6'>
+
+<img id='imge'   onClick={() => {
+  const nav = document.getElementById("nav") 
+  console.log(nav.style.display)
+  if(nav.style.display==="block")
+  {
+    nav.style.display="none"
+  }else{
+    nav.style.display="block"
+  }
+
+
+}}    className='sm:h-[40px] sm:mt-3 ' src="assets/images/menu.png" alt="icon" />
+
+
+
+     <nav id='nav'  className='sm:mx-auto sm:hidden   lg:visible lg:mr-6'>
     
-      <ul className='flex gap-6'>
+      <ul className='sm:flex-col lg:flex-row   flex gap-6'>
         <li className='text-base text-black font-bold '><Link className='no-underline text-black' to="/"> Home</Link> </li>
         <li  className='text-base text-black font-bold '> <Link className='no-underline text-black' to= "/cases"> Cases </Link> </li>
         <li  className='text-base text-black font-bold '> <Link className='no-underline text-black' to = "/about">About</Link>  </li> 
         <li  className='text-base text-black font-bold '> <Link className='no-underline text-black' to ="/solutiondesign">Solution</Link> </li>
         <li  className='text-base text-black font-bold '> <Link className='no-underline text-black' to= "/journeypage">Journey</Link>  </li>
         <li  className='text-base text-black font-bold '> <Link className='no-underline text-black' to ="/contact">Contact</Link></li> 
+        <Link className='no-underline text-white' to="/contact"> <button className='sm:px-3 sm:py-1 sm:text-sm   lg:px-5 lg:py-2 text-white bg-[#FACA10] rounded  '>Get In Touch </button> </Link>
       </ul>
       </nav>
 
       
-      <div>
-      <Link className='no-underline text-white' to="/contact"> <button className='px-5 py-2 text-white bg-[#FACA10] rounded ml-[150px] max-w-[200px]'>Get In Touch </button> </Link>
-      </div>
+     
      </div>  
   
   )

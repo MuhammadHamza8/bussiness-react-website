@@ -4,7 +4,7 @@ export default function Contact() {
   return (
    <>
 
-<div className='sm:w-full  md:w-full             w-[1440px]  h-[396px] absolute ' style={{ backgroundImage: "url('assets/images/13.png')  "}}>
+<div className='sm:w-full  md:w-full             w-[1440px]  h-[396px] absolute ' style={{ backgroundImage: "url('assets/images/13.png');", display:"none"  }}>
 
  </div>
 

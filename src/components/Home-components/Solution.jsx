@@ -11,13 +11,13 @@ export default function Solution() {
 </div>
 
 
-<div className=' sm:mt-6 sm:py-4  lg:mt-24 mx-auto'>
+<div className=' sm:mt-6 sm:py-4 sm:     lg:mt-24 mx-auto'>
 <h1 className='sm:text-[20px]  lg:text-[44px] font-black '>Perfect Solution for Your Bussiness</h1>
 <p className='sm:text-sm   lg:text-lg font-normal '>Lorem Ipsum is simply dummy text of the printing<br/> and typesetting industry.
-     Lorem Ipsum has been the<br/> industry's standard dummy text ever since the 1500s,<br/> when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
-    It has survived not only five centuries,</p>
+     Lorem Ipsum has been the<br/> industry's standard dummy text ever since the 1500s,<br/> when an unknown printer took a galley of type<br/> and scrambled it to make a type specimen book. 
+    <br/>It has survived not only five centuries,</p>
 
-    <button className='sm:px-3 sm:py-2 md:py-1    md:px-3  lg:px-5 lg:py-2 text-white bg-[#FACA10] rounded-sm '>Get In Touch </button>
+    <button className='sm:px-3 sm:py-2   md:py-1    md:px-3  lg:px-5 lg:py-2 text-white bg-[#FACA10] rounded-sm '>Get In Touch </button>
 
 </div>        
 

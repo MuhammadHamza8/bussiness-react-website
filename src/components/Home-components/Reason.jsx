@@ -4,9 +4,9 @@ export default function Reason() {
   return (
     <div className='bg-[#F2F2F2;]'>
     <div className='container mx-auto py-[97px] '> 
-        <h1 className='text-[44px] font-black text-center'>Reason to Choose Us</h1>
+        <h1 className='sm:text-2xl   lg:text-[44px] font-black text-center'>Reason to Choose Us</h1>
         <p className='text-center mt-7'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-            Lorem Ipsum has been<br/> the industry's standard dummy text ever since the 1500s, 
+            Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
             when an unknown printer took a galley of <br/>type and scrambled it to make a type specimen book. 
             It has survived not only five centuries,
             </p>
@@ -27,7 +27,7 @@ export default function Reason() {
     <div>
     <div className=' sm:grid sm:grid-cols-1   flex gap-x-[40px] ' >
       <img className='sm:ml-7   mx-[-30px]' src="assets/images/icon.png" alt="ion" />
-      <h1 className='sm:ml-10 text-[#1E1E1E] text-[30px] font-bold underline underline-offset-1 mt-2  '>Branding</h1>
+      <h1 className='sm:ml-10 sm:text-2xl text-[#1E1E1E] text-[30px] font-bold underline underline-offset-1 mt-2  '>Branding</h1>
     </div>
     <p className='sm:text-sm sm:text-left   md:text-[18px] font-normal text-justify mt-4 mx-10'>
     Lorem Ipsum is simply dummy text of the printing and <br/>typesetting industry.
