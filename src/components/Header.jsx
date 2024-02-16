@@ -24,11 +24,11 @@ export default function Header() {
   }
 
 
-}}    className='sm:h-[40px] sm:mt-3 ' src="assets/images/menu.png" alt="icon" />
+}}    className='sm:h-[40px] sm:mt-3 lg:hidden ' src="assets/images/menu.png" alt="icon" />
 
 
 
-     <nav id='nav'  className='sm:mx-auto sm:hidden   lg:visible lg:mr-6'>
+     <nav id='nav'  className='sm:mx-auto    lg:mr-6'>
     
       <ul className='sm:flex-col lg:flex-row   flex gap-6'>
         <li className='text-base text-black font-bold '><Link className='no-underline text-black' to="/"> Home</Link> </li>

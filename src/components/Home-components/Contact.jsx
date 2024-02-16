@@ -45,8 +45,10 @@ export default function Contact() {
 
 </div>
 
+<div className='grid justify-items-center'>
 
-<button type="submit" className=" sm:w-20 sm:text-sm sm:ml-[300px]   md:ml-[300px]   w-[157px] h-[48px] bg-[#FACA10] rounded-[5px]  mt-[67px] text-white text-center ">Submit</button>
+<button type="submit" className=" sm:w-20 sm:text-sm   mx-auto   w-[157px] h-[48px] bg-[#FACA10] rounded-[5px]  mt-[67px] text-white text-center ">Submit</button>
+</div>
 
 
 
