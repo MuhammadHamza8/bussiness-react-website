@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 
 export default function Footer() {
   return (
-<div className=' sm:flex-col   md:flex-col mx-auto lg:bg-blue-500  md:bg-red-400 sm:bg-slate-600  sm:w-full md:w-full lg:w-full xl:w-full'>
+<div className=' sm:flex-col  md:flex-col mx-auto lg:bg-blue-500  md:bg-red-400 sm:bg-slate-600 '>
   
   <div className='sm:py-2 '>
   <img src="assets/images/logo.png"  className=" mx-auto sm:w-[150px] sm:h-[20px] md:w-44 md:h-8" alt="img" />

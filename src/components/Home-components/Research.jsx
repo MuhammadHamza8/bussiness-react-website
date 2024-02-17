@@ -2,8 +2,9 @@ import React from "react";
 
 export default function Branding() {
   return (
-    <div className="container mx-auto py-[221px]">
+    <div className="container mx-auto ">
       <h1 className=" sm:text-2xl text-[44px] font-black text-center">Our Research & Case Studies</h1>
+      
       <p className=" sm:text-base text-center text-lg font-normal mt-7">
         Lorem Ipsum is simply dummy text of the printing and typesetting
         industry. Lorem Ipsum has been the industry's standard dummy text ever
@@ -14,7 +15,8 @@ export default function Branding() {
 
       <div className="grid sm:grid-cols-1 sm:gap-4 sm:mt-2   md:grid-cols-1  md:w-full  mt-[48px] lg:w-full">
         <div className="mx-28">
-          <h1 className=" sm:text-2xl  md:text-2xl md:text-center text-[#1E1E1E] text-[30px] font-bold">
+          <h1 className=" sm:text-2xl  md:text-2xl
+           md:text-center text-[#1E1E1E] text-[30px] font-bold">
             Lorem Ipsum is simply
           </h1>
           <p className=" sm:text-base  text-[#1E1E1E]  text-lg text-justify mt-[13px]">
