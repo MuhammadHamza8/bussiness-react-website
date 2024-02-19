@@ -2,9 +2,9 @@ import React from 'react'
 
 export default function Reason() {
   return (
-    <div className='bg-[#F2F2F2;]'>
+    <div className='bg-[#F2F2F2;] py-5'>
     <div className='container mx-auto  '> 
-        <h1 className='sm:text-2xl   lg:text-3xl font-black text-center'>Reason to Choose Us</h1>
+        <h1 className='sm:text-2xl   lg:text-3xl font-black text-center py-3'>Reason to Choose Us</h1>
            <p className='text-center  mt-7'>
             Lorem Ipsum is simply dummy text of the printing and typesetting industry.<br/> 
             Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, <br/>
@@ -22,8 +22,8 @@ export default function Reason() {
     </div>
 
     <div className='grid sm:grid-col-1 sm:w-full sm:gap-y-12  md:grid-cols-2  py-[65px] bg-white   rounded-[30px]  mt-[60px]'>
-    <div className='sm:max-w-sm md:max-w-md sm:py-2    border-1 rounded-[25px]   md:py-[10px] px-3 mx-[41px]'>
-    <img className=' sm:mt-6 rounded-[30px]' src="assets/images/9.png" alt="img" />
+    <div className='sm:max-w-sm md:max-w-md sm:py-2 sm:h-[170px] sm:mt-20  border-1 rounded-[25px]   md:py-[10px] px-3 mx-[41px]'>
+    <img className=' sm:mt-4  rounded-[30px]' src="assets/images/9.png" alt="img" />
     </div>
 
     <div>

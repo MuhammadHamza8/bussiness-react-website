@@ -17,7 +17,7 @@ export default function Solution() {
      Lorem Ipsum has been the<br/> industry's standard dummy text ever since the 1500s,<br/> when an unknown printer took a galley of type<br/> and scrambled it to make a type specimen book. 
     <br/>It has survived not only five centuries,</p>
 
-    <button className='sm:px-3 sm:py-2   md:py-1    md:px-3  lg:px-5 lg:py-2 text-white bg-[#FACA10] rounded-sm '>Get In Touch </button>
+    <button className='sm:px-2     lg:px-2 w-[150px] h-10 text-center rounded-lg text-white bg-[#FACA10] '>Get In Touch </button>
 
 </div>        
 

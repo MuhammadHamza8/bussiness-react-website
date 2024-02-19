@@ -14,12 +14,12 @@ export default function Hero() {
     
       </p>
     
-      <button className='sm:px-3 sm:py-1   lg:px-5 py-2 text-white bg-[#FACA10] rounded '>Get In Touch </button>
+      <button className='sm:px-2     lg:px-2 w-[150px] h-10 text-center rounded-lg text-white bg-[#FACA10] '>Get In Touch </button>
     
     </div>
     
     <div className=' sm:mx-auto  md:mt-[-45px]'>
-      <img  className='sm:max-w-sm  lg:max-w-lg xl:max-w-xl 2xl:max-w-2xl ' src='assets/images/2.png'  alt='img'/>
+      <img  className='  lg:max-w-lg xl:max-w-xl 2xl:max-w-2xl ' src='assets/images/2.png'  alt='img'/>
     </div>
     
     </div>

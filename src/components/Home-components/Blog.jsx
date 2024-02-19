@@ -2,9 +2,9 @@ import React from 'react'
 
 export default function Blog () {
   return (
-    <div className='bg-[#F2F2F2;]'>
+    <div className='bg-[#F2F2F2;] py-[100px]'>
 
-<div className='container mx-auto py-[82px] '>
+<div className='container mx-auto  '>
         <h1 className=' sm:text-base md:text-2xl  text-center text-[#1E1E1E] lg:text-[44px] font-black sm:mt-4 lg:text-3xl '>Our Blogs</h1>
 
         {/* cards design */}
