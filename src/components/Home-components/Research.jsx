@@ -3,7 +3,7 @@ import React from "react";
 export default function Branding() {
   return (
     <div className="container mx-auto ">
-      <h1 className=" sm:text-2xl text-[44px] font-black text-center py-5">Our Research & Case Studies</h1>
+      <h1 className="xs:text-lg xs:py-5  sm:text-2xl text-[44px] font-black text-center md:py-5">Our Research & Case Studies</h1>
       
       <p className=" sm:text-base text-center text-lg font-normal mt-7">
         Lorem Ipsum is simply dummy text of the printing and typesetting

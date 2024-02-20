@@ -5,11 +5,11 @@ const ContactForm =()=>{
 return (
 <>
 
-<div className='w-[1442px]  h-[396px] absolute ' style={{ backgroundImage: "url('assets/images/13.png')  "}}>
+<div className='w-[1442px]  h-[396px] absolute  xs:hidden ' style={{ backgroundImage: "url('assets/images/13.png')  "}}>
 
  </div>
 
- <div className='mx-auto relative  mt-[149px]  mb-[200px]  w-[938px] h-[507px] bg-[#fff] border border-[#FFFFFF] rounded-[15px] '>
+ <div className=' mx-auto relative  mt-[149px]  mb-[200px]  lg:w-[938px] h-[507px] bg-[#fff] border border-[#FFFFFF] rounded-[15px] '>
 
 <h1 className='text-[44px] font-black text-center mt-[60px] underline underline-offset-1'>Get in Touch</h1>
 
