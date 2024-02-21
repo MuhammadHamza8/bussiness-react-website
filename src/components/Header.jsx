@@ -15,7 +15,7 @@ export default function Header() {
 
 <img id='imge'   onClick={() => {
   const nav = document.getElementById("nav") 
-  console.log(nav.style.display)
+  // console.log(nav.style.display)
   if(nav.style.display==="block")
   {
     nav.style.display="none"
@@ -30,7 +30,7 @@ export default function Header() {
 
      <nav id='nav'  className='  sm:mx-auto md:mx-auto lg:mx-auto  '>
     
-      <ul className='xs:flex-col xs:gap-y-2  sm:flex-col lg:flex-row   flex gap-12'>
+      <ul className='   xs:flex-col xs:gap-y-2  sm:flex-col lg:flex-row   flex gap-12'>
         <li className='text-base text-black font-bold '><Link className='no-underline text-black' to="/"> Home</Link> </li>
         <li  className='text-base text-black font-bold '> <Link className='no-underline text-black' to= "/cases"> Cases </Link> </li>
         <li  className='text-base text-black font-bold '> <Link className='no-underline text-black' to = "/about">About</Link>  </li> 

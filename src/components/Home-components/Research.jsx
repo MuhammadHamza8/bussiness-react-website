@@ -15,18 +15,15 @@ export default function Branding() {
 
       <div className="grid sm:grid-cols-1 sm:gap-4 sm:mt-2   md:grid-cols-1 md:gap-x-2 lg:grid-cols-2  md:w-full  mt-[48px] lg:w-full    py-5">
         <div className="mx-28">
-          <h1 className=" sm:text-2xl  md:text-2xl
+          <h1 className="xs:text-lg sm:text-2xl  md:text-2xl
            md:text-center text-[#1E1E1E] text-[30px] font-bold">
             Lorem Ipsum is simply
           </h1>
-          <p className=" sm:text-base md:text-base text-[#1E1E1E]  text-lg  mt-[13px]">
+          <p className="xs:text-sm  sm:text-base md:text-base text-[#1E1E1E]  text-lg  mt-[13px]">
             Lorem Ipsum is simply dummy text of the printing and 
             typesetting industry.  orem Ipsum has been the industry Lstandard
             dummy text ever since the 1500s, when an unknown 
-            printer took a galley of type Lorem IpsumL is simply dummy
-            text of the printing and typesetting industry.Lorem Ipsum has been
-            the industry's     standard dummy text ever since the 1500s,   
-         when an unknown printer took.
+      
           </p>
 
           <button className=" sm:px-2     lg:px-2 w-[150px] h-10 text-center rounded-lg text-white bg-[#FACA10]">

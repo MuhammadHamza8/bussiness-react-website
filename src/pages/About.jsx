@@ -8,7 +8,7 @@ import ThirdSection from '../components/About-components/thirdSection';
  const About = () => {
   return (
     <Layout>
-      <TopSection/>
+      <TopSection heading="my name is hamza" />
       <MiddleSection/>
       <ThirdSection/>
       

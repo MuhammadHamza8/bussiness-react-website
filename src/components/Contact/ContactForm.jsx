@@ -9,12 +9,12 @@ return (
 
  </div>
 
- <div className=' mx-auto relative  mt-[149px]  mb-[200px]  lg:w-[938px] h-[507px] bg-[#fff] border border-[#FFFFFF] rounded-[15px] '>
+ <div className='  mx-auto relative  mt-[149px]  mb-[200px]  lg:w-[938px] h-[507px] bg-[#fff] border border-[#FFFFFF] rounded-[15px] '>
 
-<h1 className='text-[44px] font-black text-center mt-[60px] underline underline-offset-1'>Get in Touch</h1>
+<h1 className='   lg:text-[44px] font-black text-center mt-[60px] underline underline-offset-1'>Get in Touch</h1>
 
 <form>
-<div className='flex justify-center mt-[42px] gap-x-[120px]'>
+<div className='flex xs:flex-col xs:gap-[80px] lg:justify-center mt-[42px] lg:gap-x-[120px]'>
 
 <div>
      <label for="first_name" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Name</label>

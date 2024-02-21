@@ -3,7 +3,7 @@ import React from 'react'
 
 export default function Hero() {
   return (
-    <div className="container mx-auto grid xs:grid-cols-1 xs:gap-y-4  sm:gap-y-6 grid-cols-2 ">
+    <div className="container mx-auto grid xs:grid-cols-1 xs:gap-y-4  sm:gap-y-6 grid-cols-2 md:grid-cols-2 lg:grid-cols-2 ">
 
     <div className='  xs:mx-auto  sm:mx-auto  lg:ml-16 lg:mt-32  '>
       <h1 className=' xs:text-base sm:text-lg md:text-base  lg:text-3xl text-black  font-black '>Get Bussiness Solutions with TheFirm.</h1>

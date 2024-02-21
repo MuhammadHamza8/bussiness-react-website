@@ -1,11 +1,12 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 
-export default function CasesCards() {
+export default function CasesCards(prop) {
   return (
     <>
-    <div className='container mx-auto mt-[78px] grid grid-cols-3'>
-
+    {prop.cased}
+    <div className='container mx-auto mt-[78px] grid  md:grid-cols-2    lg:grid-cols-3 xs:grid-cols-1 xs:justify-items-center xs:gap-y-3'>
+    
       <div className='w-[340px] h-[500px] border-2 bg-[#FFF] rounded-[15px] '>
         <img src="assets/images/15.png" alt="img" />
         <h2 className='ml-[21px]'>Lorem Ipsum is</h2>
@@ -39,7 +40,7 @@ export default function CasesCards() {
     </div>
 
 
-    <div className='container mx-auto mt-[78px] grid grid-cols-3'>
+    <div className='container mx-auto mt-[78px] grid md:grid-cols-2  lg:grid-cols-3 xs:grid-cols-1 xs:justify-items-center xs:gap-y-3'>
 
       <div className='w-[340px] h-[500px] border-2 bg-[#FFF] rounded-[15px] '>
         <img src="assets/images/18.png" alt="img" />
@@ -75,7 +76,7 @@ export default function CasesCards() {
 
 
 
-    <div className='container mx-auto mt-[78px] grid grid-cols-3'>
+    <div className='container mx-auto mt-[78px] grid md:grid-cols-2   lg:grid-cols-3 xs:grid-cols-1 xs:justify-items-center xs:gap-y-3 '>
 
       <div className='w-[340px] h-[500px] border-2 bg-[#FFF] rounded-[15px] '>
         <img src="assets/images/21.png" alt="img" />

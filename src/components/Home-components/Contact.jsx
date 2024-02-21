@@ -4,16 +4,16 @@ export default function Contact() {
   return (
    <>
 
-<div className='sm:w-full  md:w-full             w-[1440px]  h-[396px] absolute ' style={{ backgroundImage: "url('assets/images/13.png');", display:"none"  }}>
+<div className='         sm:w-full  md:w-full             w-[1440px]  h-[396px] absolute ' style={{ backgroundImage: "url('assets/images/13.png');", display:"none"  }}>
 
  </div>
 
- <div className=' sm:w-full  sm:mb-4  mx-auto relative  mt-[149px]  mb-[200px]  w-[938px] h-[507px] bg-[#fff] border border-[#FFFFFF] rounded-[15px] '>
+ <div className='xs:w-full  sm:w-full  sm:mb-4  mx-auto relative  mt-[149px]  mb-[200px]  w-[938px] h-[507px] bg-[#fff] border border-[#FFFFFF] rounded-[15px] '>
 
-<h1 className=' sm:text-[20px] md:text-base  lg:text-3xl font-black text-center mt-[60px] underline underline-offset-1'>Get in Touch</h1>
+<h1 className='xs:text-base sm:text-[20px] md:text-base  lg:text-3xl font-black text-center mt-[60px] underline underline-offset-1'>Get in Touch</h1>
 
 <form>
-<div className=' sm:gap-x-4  flex justify-center mt-[42px] md:gap-x-[120px]'>
+<div className=' xs:p-3 xs:gap-x-2 sm:gap-x-4  flex justify-center mt-[42px] md:gap-x-[120px]'>
 
 <div>
      <label for="first_name" className="   block mb-2 text-sm  md:text-lg  font-medium text-gray-900 dark:text-white">Name</label>
@@ -29,7 +29,7 @@ export default function Contact() {
 
 </div>
 
-<div className=' sm:gap-x-4  flex justify-center mt-[42px]   md:gap-x-[120px]'>
+<div className='xs:p-3  xs:gap-x-2 sm:gap-x-4  flex justify-center mt-[42px]   md:gap-x-[120px]'>
 
 <div>
      <label for="first_name" class="block mb-2 text-sm  md:text-lg  font-medium text-gray-900 dark:text-white">Phone number</label>
@@ -47,7 +47,7 @@ export default function Contact() {
 
 <div className='grid justify-items-center'>
 
-<button type="submit" className=" sm:w-20 sm:text-sm   mx-auto   md:w-[157px] md:h-[48px] bg-[#FACA10] rounded-[5px]  mt-[67px] text-white text-center ">Submit</button>
+<button type="submit" className=" xs:w-[100px] sm:w-20 sm:text-sm   mx-auto   md:w-[157px] md:h-[48px] bg-[#FACA10] rounded-[5px]  mt-[67px] text-white text-center ">Submit</button>
 </div>
 
 

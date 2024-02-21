@@ -8,7 +8,7 @@ export default function Blog () {
         <h1 className=' sm:text-base md:text-2xl  text-center text-[#1E1E1E] lg:text-[44px] font-black sm:mt-4 lg:text-3xl '>Our Blogs</h1>
 
         {/* cards design */}
-        <div className='grid sm:grid-cols-1 sm:gap-y-3   md:grid-cols-2       lg:grid-cols-3   py-[64px] justify-items-center'>
+        <div className=' grid sm:grid-cols-1 xs:gap-y-3 sm:gap-y-3   md:grid-cols-2       lg:grid-cols-3   py-[64px] justify-items-center'>
             <div className='  w-[340px] h-[560.781px] border-2 border-gray-200 rounded-2xl'>
                 <img className='mx-auto' src="assets/images/10.png" alt="img" />
                 
