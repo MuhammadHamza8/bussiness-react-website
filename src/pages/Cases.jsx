@@ -9,16 +9,16 @@ export default function Cases() {
   const data = {
     
     
-      heading1:"heading 1 data",
-    heading2:"heading 2 data"
+      heading1:"heading 1",
+  
 
   }
   return (
  <Layout>
-  {data.heading1}
-<Hero footerData="this is footer"/>
+ 
+<Hero hero={data.heading1}/>
 <CasesSection/>
-<CasesCards cased={data.heading2}/>
+<CasesCards />
 <Review/>
 </Layout>   
 

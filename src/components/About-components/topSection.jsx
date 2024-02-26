@@ -1,9 +1,9 @@
 import React from 'react'
 
-export default function topSection({heading}) {
+export default function topSection() {
   return (
-<div className=' grid xs:grid-cols-1      lg:grid-cols-2 gap-x-[83px] bg-[#F6F6F6]'> 
-<h1>{heading}</h1>
+<div className=' grid xs:grid-cols-1 lg:grid-cols-2 gap-x-[83px] bg-[#F6F6F6]'> 
+
   
   <div className='mt-[98px]  lg:ml-[92px]'>
 
