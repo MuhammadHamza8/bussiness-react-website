@@ -4,11 +4,13 @@ const DigitalSecond = () =>{
 
     return(
 
-        <div className=" container mx-auto  grid grid-cols-2 gap-4 py-3">
-           <div className="">
+        <div className=" container mx-auto  grid grid-cols-2 gap-4 py-3 md:grid-cols-2 xs:grid-cols-1">
+         
+         <div className="md:mt-12">
              <img src="assets/images/28.png" alt="img"/>
              </div>
 
+             
             <div className="py-[75px]">
 
                 <h1 className="text-[24px] text-black font-semibold"> Lorem Ipsum</h1>
@@ -25,7 +27,7 @@ const DigitalSecond = () =>{
 
             </div>
 
-
+          
 
         </div>
 

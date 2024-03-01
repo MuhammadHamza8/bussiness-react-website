@@ -7,17 +7,17 @@ export default function Hero(prop) {
             <div className=' md:mt-2 lg:mt-[100px]'>
                 <h1 className='  lg:text-[44px] font-black text-[#1E1E1E]'> {prop.hero}   Our Research & <br/> Case Studies </h1>
 
-                <p className='text-[18px] font-normal mt-[28px]'>Lorem Ipsum is simply dummy text of the printing<br/>
+                <p className='  text-[18px] font-normal mt-[28px]'>Lorem Ipsum is simply dummy text of the printing<br/>
                     and typesetting industry. Lorem Ipsum has been<br/>
                     the industry's standard dummy.</p>
 
-                <button className='w-[157px] h-[47px] bg-[#FACA10] rounded-[5px] text-center text-white mt-[32px] '>Get in Touch</button>
+                <button className='   w-[157px] h-[47px] bg-[#FACA10] rounded-[5px] text-center text-white md:mt-[32px] '>Get in Touch</button>
 
             </div>
 
             <div>
 
-                <img  src="assets/images/14.png" alt="img" />
+                <img className='xs:my-4 '  src="assets/images/14.png" alt="img" />
 
             </div>
 

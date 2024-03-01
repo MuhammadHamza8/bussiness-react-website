@@ -2,13 +2,13 @@ import React from 'react'
 
 export default function middleSection() {
   return (
-    <div className=' grid grid-cols-2 gap-5'>
-       <div className='mt-[100px] ml-[92px] '>
-        <img src='assets/images/25.png' alt='img'/>  
+    <div className='grid md:grid-cols-1   lg:grid-cols-2 '>
+       <div className='mt-[100px] lg:ml-[28%]  mx-auto'>
+        <img className='lg:max-w-lg' src='assets/images/25.png' alt='img'/>  
 
         </div>
 
-        <div className='mt-[120px] bg-[#FFF;]'>
+        <div className='mt-[120px] bg-[#FFF;] mx-auto'>
             <h1 className='text-[40px] font-normal text-[#1E1E1E] '>Lorem Ipsum</h1>
            
             <p className='text-lg font-normal mt-[1px]  text-justify'>

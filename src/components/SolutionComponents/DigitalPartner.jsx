@@ -9,14 +9,15 @@ return(
 
 <div>
 
-<div className="mx-auto container grid grid-cols-2 gap-x-[108px] py-3">
+<div className="mx-auto container grid lg:grid-cols-2 gap-x-[108px] py-3 md:grid-cols-1  ">
 
     
 
-    <div className="mt-[107px] w-[456px] h-[400px] border-2 rounded-[25px] grid justify-items-center">
+<div className="mt-[107px] lg:w-[456px]  md:max-w-sm  sm:border-2  sm:max-w-[289px] sm:mx-auto  lg:border-2 rounded-[30px] md:rounded-md grid justify-items-center sm:hidden xs:hidden lg:block">
 
-        <img className="mt-2 rounded-sm" src="assets/images/32.png" alt="img" />
-    </div>
+<img className="lg:mt-2 lg:rounded-sm md:rounded-sm md:h-[350px]  " src="assets/images/32.png" alt="img" />
+</div>
+
 
     <div className=" mt-[162px]">
         <h1 className="text-[30px] font-bold ">Coaching </h1>

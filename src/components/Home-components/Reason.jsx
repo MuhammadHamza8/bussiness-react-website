@@ -1,15 +1,12 @@
 import React from 'react'
 
-export default function Reason() {
+export default function Reason(prop) {
   return (
     <div className='bg-[#F2F2F2;] xs:mt-3   lg:py-5'>
     <div className='container mx-auto  '> 
-        <h1 className='xs:text-lg sm:text-2xl   lg:text-3xl font-black text-center py-3'>Reason to Choose Us</h1>
+        <h1 className='xs:text-lg sm:text-2xl   lg:text-3xl font-black text-center py-3'>{prop.res1}</h1>
            <p className='xs:text-xs xs:text-center  md:text-center  mt-7'>
-            Lorem Ipsum is simply dummy text of the printing and typesetting industry.<br/> 
-            Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, <br/>
-            when an unknown printer took a galley of type and scrambled <br/>it to make a type specimen book. 
-            It has survived not only five centuries,
+            {prop.res2}
             </p>
       
 
