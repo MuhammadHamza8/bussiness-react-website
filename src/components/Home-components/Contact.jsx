@@ -1,8 +1,18 @@
 import React from 'react'
 
+
+
+
+
+
 export default function Contact() {
+
+ 
+
   return (
    <>
+
+
 
 <div className='         sm:w-full  md:w-full             w-[1440px]  h-[396px] absolute ' style={{ backgroundImage: "url('assets/images/13.png');", display:"none"  }}>
 
@@ -36,6 +46,8 @@ export default function Contact() {
     <input type="text" id="first_name" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="+91245467" required/>
 </div>
 
+
+
 <div>
      <label for="first_name" class="block mb-2 text-sm  md:text-lg  font-medium text-gray-900 dark:text-white">Subject</label>
     <input type="text" id="first_name" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="Subject" required/>
@@ -47,7 +59,7 @@ export default function Contact() {
 
 <div className='grid justify-items-center'>
 
-<button type="submit" className=" xs:w-[100px] sm:w-20 sm:text-sm   mx-auto   md:w-[157px] md:h-[48px] bg-[#FACA10] rounded-[5px]  mt-[67px] text-white text-center ">Submit</button>
+<button   type="submit" className=" xs:w-[100px] sm:w-20 sm:text-sm   mx-auto   md:w-[157px] md:h-[48px] bg-[#FACA10] rounded-[5px]  mt-[67px] text-white text-center ">Submit</button>
 </div>
 
 

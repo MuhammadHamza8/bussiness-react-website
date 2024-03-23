@@ -24,7 +24,11 @@ const data = {
   heading3:"Perfect Solution for Your Bussiness ",
   para3:"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries,",
   heading4:"Reason to Choose Us ",
-  para4:"Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries,"
+  para4:"Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries,",
+
+  heading5:"Lorem Ipsum is",
+  paraBlog:"Lorem Ipsum is simply text of the printing and type setting industry. make a type specimen."
+
 }
 
 
@@ -45,7 +49,7 @@ const Home = () => {
       <Solution sol1={data.heading3} sol2={data.para3}/>
       <Reason res1={data.heading4} resr2={data.para4} />
       <Research/>
-      <Blog/>
+      <Blog data={data}/>
       <Feedback/>
       <Contact/>
 

@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default function Blog () {
+export default function Blog (prop) {
   return (
     <div className='bg-[#F2F2F2;] py-[100px]'>
 
@@ -12,8 +12,8 @@ export default function Blog () {
             <div className='  w-[340px] h-[560.781px] border-2 border-gray-200 rounded-2xl'>
                 <img className='mx-auto' src="assets/images/10.png" alt="img" />
                 
-                <h2 className='sm:text-2xl md:text-2xl     mx-[21px] '>Lorem Ipsum is</h2>
-                <p className='mx-[21px]'>Lorem Ipsum is simply  text of the<br/> printing and type setting industry.<br/> make a type specimen. </p>
+                <h2 className='sm:text-2xl md:text-2xl     mx-[21px] '>{prop.data.heading5}</h2>
+                <p className='mx-[21px]'> {prop.data.paraBlog} </p>
 
 
                 <div className='flex gap-x-1 mx-[18px] mt-[53px]'>
@@ -36,8 +36,8 @@ export default function Blog () {
             <div className='w-[340px] h-[560.781px] border-2 border-gray-200 rounded-2xl'>
                 <img className='mx-auto' src="assets/images/10.png" alt="img" />
                 
-                <h2 className='sm:text-2xl md:text-2xl    mx-[21px] '>Lorem Ipsum is</h2>
-                <p className='mx-[21px]'>Lorem Ipsum is simply  text of the<br/> printing and type setting industry.<br/> make a type specimen. </p>
+                <h2 className='sm:text-2xl md:text-2xl    mx-[21px] '>{prop.data.heading5}</h2>
+                <p className='mx-[21px]'>{prop.data.paraBlog}</p>
 
 
                 <div className='flex gap-x-1 mx-[18px] mt-[53px]'>
@@ -59,8 +59,8 @@ export default function Blog () {
             <div className='w-[340px] h-[560.781px] border-2 border-gray-200 rounded-2xl'>
                 <img className='mx-auto' src="assets/images/10.png" alt="img" />
                 
-                <h2 className='sm:text-2xl md:text-2xl    mx-[21px] '>Lorem Ipsum is</h2>
-                <p className='mx-[21px]'>Lorem Ipsum is simply  text of the<br/> printing and type setting industry.<br/> make a type specimen. </p>
+                <h2 className='sm:text-2xl md:text-2xl    mx-[21px] '>{prop.data.heading5}</h2>
+                <p className='mx-[21px]'>{prop.data.paraBlog}</p>
 
 
                 <div className='flex gap-x-1 mx-[18px] mt-[53px]'>

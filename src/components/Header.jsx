@@ -1,9 +1,12 @@
-import React from 'react'
+
 
 import { Link } from 'react-router-dom';
 
 
 export default function Header() {
+
+
+
   return (
 <div className='container mx-auto grid sm:py-2    lg:grid-cols-3 lg:mt-3 lg:gap-x-10 '>
 
